@@ -56,16 +56,18 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Controllers\Biblioteca.cs" />
+    <Compile Include="Controllers\ClsjogoDados.cs" />
     <Compile Include="Controllers\Cmd.cs" />
     <Compile Include="Controllers\Controller.cs" />
+    <Compile Include="Controllers\ConverterD.cs" />
+    <Compile Include="Views\Dados.xaml.cs">
+      <DependentUpon>Dados.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\Dobro.xaml.cs">
       <DependentUpon>Dobro.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Inicio.xaml.cs">
       <DependentUpon>Inicio.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\JogoDados.xaml.cs">
-      <DependentUpon>JogoDados.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Selos.xaml.cs">
       <DependentUpon>Selos.xaml</DependentUpon>
@@ -82,15 +84,15 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\Dados.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\Dobro.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Inicio.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\JogoDados.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -135,6 +137,12 @@
     <Resource Include="Images\watamelon.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <Resource Include="Images\1.png" />
+    <Resource Include="Images\2.png" />
+    <Resource Include="Images\3.png" />
+    <Resource Include="Images\4.png" />
+    <Resource Include="Images\5.png" />
+    <Resource Include="Images\6.png" />
     <Content Include="Sons\rosca.wav" />
     <Content Include="Sons\som-de-grito.mp3" />
   </ItemGroup>

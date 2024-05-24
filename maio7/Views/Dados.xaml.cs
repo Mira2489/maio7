@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace maio7.Views
 {
     /// <summary>
-    /// Interaction logic for JogoDados.xaml
+    /// Interaction logic for Dados.xaml
     /// </summary>
-    public partial class JogoDados : Page
+    public partial class Dados : Page
     {
-        public JogoDados()
+        public Dados()
         {
             InitializeComponent();
         }
